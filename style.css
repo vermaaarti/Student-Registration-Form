@@ -1,0 +1,118 @@
+  @media screen and (min-width:768px){
+  .seconddiv{
+    border-left: 4px solid green;
+  }
+}
+
+  #enrolled-students {
+     width: 55%;
+   height: calc(100vh - 70px);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    overflow: scroll;
+    justify-content: center;
+  }
+  
+  .enroll-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .form-control {
+    margin-bottom: 16px;
+  }
+ 
+  .sectionHeading {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-green-yellow);
+    color: #fff;
+    box-sizing: border-box;
+    border: solid 2px var(--b-dark-yellow);
+  }
+  
+  .description {
+    box-sizing: border-box;
+    border-right: solid 2px var(--b-dark-yellow);
+    margin-bottom: 0;
+    width: 70%;
+  }
+  
+  .Image {
+    margin-bottom: 0;
+    width: 30%;
+  }
+  
+  .infoText {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    justify-content: space-between;
+    border: solid 2px var(--b-dark-yellow);
+    border-top: none;
+    animation: fadeIn 2s;
+    position: relative;
+  }
+  
+  .userDeleteBtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    transform: rotate(45deg);
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    button.userDeleteBtn {
+      display:block;
+    }
+    
+  }
+  
+  .wrapper:hover .userDeleteBtn {
+    display: block;
+  }
+  
+  .wrapper:nth-child(odd) {
+    background-color: #fff;
+  }
+  .wrapper:nth-child(even) {
+    background-color: var(--b-light-yellow);
+  }
+  
+  .textInfoContainer {
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: solid 2px var(--b-dark-yellow);
+    padding: 10px;
+  }
+  
+  .imageContainer {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .userImage {
+    height: auto;
+    width: 100px;
+  }
+  
+ 
